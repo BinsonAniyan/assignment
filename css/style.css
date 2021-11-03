@@ -345,7 +345,7 @@ span{
 
 
 
-@media screen{
+/* @media screen{
     .contt{
         position: absolute;
         margin-top: 700px;
@@ -406,7 +406,7 @@ span{
     }
     
     
-}
+} */
 hr.rounded{
     border-top: 8px solid rgba(132, 248, 147);
     border-radius: 5px;
@@ -476,7 +476,7 @@ hr.rounded{
     color: #fff;
     text-decoration: none;
 }
-@media screen {
+/* @media screen {
     .dd{
         position: absolute;
         margin-top: 7700px;
@@ -487,4 +487,4 @@ hr.rounded{
     
     }
   
-}
+} */
