@@ -256,32 +256,3 @@
 
 
 }
-@media screen {
-    .Explore{
-        margin-top: 19px;
-        display: block;
-       
-       height:auto;
-      
-       padding-top: 10%;
-       
-       background-color: rgba(169, 224, 181, 0.63);
-        
-    }
-    .Explore .gall{
-       
-        margin-left: -80px;
-        padding-left: 5px;
-        position: relative;
-        width: 350px;
-        max-width: 360px;
-        border-radius: 20px;
-    }
-    .Explore .gall img{
-        width: 350px;
-        height: 100px;
-        border-radius: 2px;
-        padding: 5px;
-       
-    }
-}
