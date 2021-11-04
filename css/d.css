@@ -35,23 +35,3 @@
     color: rgb(16, 167, 167);
     transition-duration: 1s;
 }
-
-@media screen and (max-width:780px) {
-    .carousel-caption h5{
-        
-        font-size: 50%;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        margin-top: 10%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    
-    }
-    .carousel-caption p{
-        width: 20%;
-        margin: auto;
-        font-size: 50%;
-        line-height: 1.9;
-        font-family: cursive;
-    
-    }
-}
