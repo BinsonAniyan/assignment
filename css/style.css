@@ -71,22 +71,13 @@
 
 
 }
-@media screen and (max-width:360px) {
-    #myVideo{
-        background-color: black;
-    
-        position: absolute;
-        right: 0;
-        left: 0;
-        min-width: 100%;
-        min-height: 100%;
-       
-    }
+@media screen and (max-width:768px) {
+   
     .container-fluid{ 
         margin-top: -8px;
         margin-left: auto;
-        width: auto;
-        height: 78px;
+        max-width: auto;
+        height: auto;
         background-color:rgba(29, 29, 27, 0.8);
         
     }
@@ -226,9 +217,9 @@
 .w-100{
     height: 100vh;
 }
-@media only screen and (max-width:360px){
+@media screen and (max-width:780px){
     .navbar-nav.ml-auto{
-        background: rgba(0,0,0,0.5);
+        background: rgba(36, 30, 30, 0.548);
     }
     .navbar-toggler{
         padding: 1px 5px;
@@ -345,15 +336,14 @@ span{
 
 
 
-/* @media screen{
+ @media screen and (max-width:768px){
     .contt{
         position: absolute;
         margin-top: 700px;
-        margin-left: 2px;
+        right: 0%;
         background-color:rgba(29, 29, 27, 0.66);
-        width: 360px;
+        max-width: 100%;
         height: auto;
-        padding: 7px;
         border-radius: 20px;
     }
     .contt h1{
@@ -384,12 +374,13 @@ span{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 300px;
-        height: 200px;
+        max-width: 50%;
+        height: auto;
+      
        
     }
     .contt img:hover{
-        border-radius: 20px;
+        border-radius: 10px;
         transform: scale(1.02);
         transition-duration: 1s;
     
@@ -406,7 +397,7 @@ span{
     }
     
     
-} */
+} 
 hr.rounded{
     border-top: 8px solid rgba(132, 248, 147);
     border-radius: 5px;
@@ -476,10 +467,10 @@ hr.rounded{
     color: #fff;
     text-decoration: none;
 }
-/* @media screen {
+@media screen and (max-width:768px){
     .dd{
         position: absolute;
-        margin-top: 7700px;
+        margin-top: 7000px;
         left: 0px;
         right: 0px;
         background-color:rgba(29, 29, 27, 0.66);
@@ -487,4 +478,4 @@ hr.rounded{
     
     }
   
-} */
+}
