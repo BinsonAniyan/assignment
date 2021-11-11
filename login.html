@@ -10,17 +10,19 @@
 <h1>Let's Get Started!</h1>
 <br><br>
 
-<form action=".." method="post">
+<form action="index.html" >
   
 
   <div class="container">
-    <label for="uname" class="clr"><b>Username/Email id</b></label>
-    <input type="text" placeholder="Enter Username/Email id" name="uname" required>
-
+    <label for="uname" class="clr"><b>Email id</b></label>
+    <input type="email" placeholder="Email id" name="uname" required id="email">
+    <label for="error" id="mess"></label>
+    <br>
     <label for="psw" class="clr"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
-        
-    <button type="submit" style="border-radius: 5px;"><b>Login</b></button>
+    <label for="error" id="pass"></label>
+    <br>   
+    <button type="submit" style="border-radius: 5px;" onclick="return validate();"><b>Login</b></button>
     <label class="clr">
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
@@ -31,6 +33,6 @@
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
 </form>
-
+<script src="formlog.js"></script>
 </body>
 </html>
