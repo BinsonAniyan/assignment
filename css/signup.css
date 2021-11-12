@@ -21,6 +21,7 @@ body {
 }
 .signup-form form {
 	color: #999;
+	background-color: rgba(0, 0, 0, 0.452);
 	border-radius: 10px;
 	margin-bottom: 15px;
 	border: 2px solid rgba(208, 227, 240, 0.849) ;
@@ -76,3 +77,11 @@ body {
 	padding-bottom: 15px;
 	text-align: center;
 }
+small{
+	margin-top: 5px;
+	height: 20px;
+
+}
+.progress-bar {
+	border-radius: 5px;
+  }
