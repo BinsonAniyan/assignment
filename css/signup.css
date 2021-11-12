@@ -20,8 +20,8 @@ body {
 	margin: 30px auto;
 }
 .signup-form form {
-	color: #999;
 	background-color: rgba(0, 0, 0, 0.568);
+	color: #999;
 	border-radius: 10px;
 	margin-bottom: 15px;
 	border: 2px solid rgba(208, 227, 240, 0.849) ;
