@@ -49,10 +49,15 @@ function validate2(){
     }
 }
 function validate3(){
+    var kkk=/^([A-Za-z0-9]+)$/;
     if(paas.value.length>1 && paas.value.length<8){
        error3.innerHTML="Use 8 characters or more for your password";
        error3.style.color="red";
        return false;
+    }
+    else if(kkk.test(paas.value)){
+        error3.innerHTML="No special characters are allowed";
+        return false;
     }
     else{
         error3.innerHTML=" ";
