@@ -213,10 +213,7 @@
 }
 .Explore .gall a:hover{
     color:rgb(14, 255, 66) ;
-    font-size: 35px;
-    font-weight: bolder;
-    transform: scale3d(1.2);
-    
+    transition-duration: 1s;
 }
 .Explore .gall a::after{
     content: '' ;
@@ -226,7 +223,7 @@
     position: absolute;
     left: 0;
     bottom: 10px;
-    transition: .5s;
+    transition-duration: 1s;
 }
 .Explore .gall a:hover::after{
     width: 100%;
