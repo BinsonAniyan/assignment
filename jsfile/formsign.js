@@ -55,7 +55,6 @@ function validate3(){
        error3.style.color="red";
        return false;
     }
-    else if(kkk.test(paas.value)){
         error3.innerHTML="No special characters are allowed";
         return false;
     }
