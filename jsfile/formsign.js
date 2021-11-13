@@ -87,31 +87,26 @@ function isGood(password) {
       password_strength.innerHTML = "";
       return;
     }
-    var Spechr="$@$!%*#?&+^~ ";
     var passscr = 0;
-    for (var i = 0; i < password.length; i++) {
-      if (Spechr.indexOf(password.charAt(i))>-1) {
-        passscr+=20;
-      }
-    }
+
     if(/[a-z]/.test(password)){
-        passscr+=20;
+        passscr+=25;
     }
     if(/[A-Z]/.test(password)){
-        passscr+=20;
+        passscr+=25;
     }
     if(/[\d]/.test(password)){
-        passscr+=20;
+        passscr+=25;
     }
     if(password.length>8){
-        passscr+=20;
+        passscr+=25;
     }
     var strength = "";
     if(passscr>=100){
         strength = "<small class='progress-bar bg-success' style='width: 100%; color:black; font-weight:bold;'>Strong</small>";
          
     }
-    else if(passscr>=60){
+    else if(passscr>=50){
         strength = "<small class='progress-bar bg-warning' style='width: 60%; color:black; font-weight:bold;'>Medium</small>";
         
     }
