@@ -85,3 +85,19 @@ small{
 .progress-bar {
 	border-radius: 5px;
   }
+  .field-icon {
+	float: right;
+	margin-left: -25px;
+	margin-top: -25px;
+	position: relative;
+	z-index: 2;
+  }
+ #check{
+	 float:right ;
+	position: relative;
+	margin-top: -28px;
+	right: 10px;
+	z-index: 2;
+	top: 2px;
+	cursor: pointer;
+  }

@@ -124,3 +124,12 @@ function isGood(password) {
     password_strength.innerHTML = strength;
 
   }
+  function myFunction() {
+    var x = document.getElementById("pv");
+    if (x.type === "password") {
+      x.type = "text";
+    } 
+    else {
+      x.type = "password";
+    }
+  }

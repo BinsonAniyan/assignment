@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Bootstrap Simple Login Form with Blue Background</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<title> signup </title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/signup.css">
 </head>
 <body>
@@ -32,7 +32,7 @@
         </div>
         
 		<div class="form-group">
-            <input type="password" class="form-control" name="password" placeholder="Password" required="required" onkeyup="isGood(this.value);validate3()" id="pv">
+            <input type="password" class="form-control" name="password" placeholder="Password" required="required" onkeyup="isGood(this.value);validate3()" id="pv"><input id="check" type="checkbox" onclick="myFunction()">
             <small class="help-block" id="password-text"></small>
             <label for="error2" id="mess3"></label>
         </div>
@@ -52,6 +52,7 @@
     </form>
 	<div class="hint-text" style="color: rgb(115, 70, 219);">Already have an account? <a href="login.html">Login here</a></div>
 </div>
+
 <script src="jsfile/formsign.js"></script>
 </body>
 </html>
