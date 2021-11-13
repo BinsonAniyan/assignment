@@ -56,8 +56,10 @@ function validate3(){
        return false;
     }
     else if(!(kkk.test(paas.value))){
-        error3.innerHTML="No special characters are allowed";
-        error3.style.color="red";
+        error3.innerHTML="<b>Hint</b>: Use atleast one (lowercase,uppercase & number) and minimum 8 chracters,<spam style='color:red'>No special characters are allowed.</spam>";
+        error3.style.fontSize="10px";
+        error3.style.color="wheat";
+
         return false;
     }
     else{
